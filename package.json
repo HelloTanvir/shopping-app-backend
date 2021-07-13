@@ -1,0 +1,28 @@
+{
+  "name": "atharo-store-final",
+  "version": "1.0.0",
+  "description": "this is the backend for react frontend",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js"
+  },
+  "author": "Tanvir <tanvirhossain.butex@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.26.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "fs-extra": "^10.0.0",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
